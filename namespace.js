@@ -10,18 +10,16 @@ var REEV0036 = {
         div.addEventListener("mouseout", div_mouseOut);
 
         function div_click(event) {
-          event.currentTarget.style.backgroundColor = "blue";
-          event.currentTarget.style.borderColor = "grey";
+          event.currentTarget.style.backgroundColor = "#5691bb";
+          event.currentTarget.style.borderColor = "#28547f";
         }
 
         function div_mouseOver(event) {
           event.currentTarget.classList.toggle("highlight");
-
         }
 
         function div_mouseOut(event) {
           event.currentTarget.classList.toggle("highlight");
-
         }
     }
 };
