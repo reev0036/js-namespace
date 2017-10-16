@@ -10,8 +10,8 @@ var REEV0036 = {
         div.addEventListener("mouseout", div_mouseOut);
 
         function div_click(ev) {
-            div.style.borderColor = "blue";
-            div.style.backgroundColor = "white";
+            event.currentTarget.style.backgroundColor = "blue";
+            event.currentTarget.style.borderColor = "lightblue";
         }
         
         function div_mouseOver(ev) {
@@ -23,4 +23,4 @@ var REEV0036 = {
         }
 
     }
-}
+};
