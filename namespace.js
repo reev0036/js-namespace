@@ -11,7 +11,7 @@ var REEV0036 = {
 
         function div_click(ev) {
             event.currentTarget.style.backgroundColor = "blue";
-            event.currentTarget.style.borderColor = "lightblue";
+            event.currentTarget.style.borderColor = "lightgreen";
         }
         
         function div_mouseOver(ev) {
