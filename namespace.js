@@ -13,7 +13,6 @@ var REEV0036 = {
             event.currentTarget.style.backgroundColor = "#5691bb";
             event.currentTarget.style.borderColor = "#28547f";
             event.currentTarget.style.color = "white";
-            event.currentTargen.style.textShadow = "1px 1px rbga(0,0,0,0.7)"
         }
 
         function div_mouseOver(event) {
