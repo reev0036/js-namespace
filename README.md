@@ -1,0 +1,2 @@
+# js-namespace
+NameSpace assigment
