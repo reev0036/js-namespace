@@ -2,8 +2,8 @@ var REEV0036 = {
     init: function () {
         var div = document.createElement("div");
         div.className = "box";
-        div.textContent = "reev0036";
-        document.getElementById("box").appendChild("div");
+        div.textContent = "REEV0036";
+        document.getElementById("boxes").appendChild("div");
         
         div.addEventListener("click", div_click);
         div.addEventListener("mouseover", div_mouseOver);
