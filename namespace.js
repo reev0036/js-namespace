@@ -1,7 +1,7 @@
 var REEV0036 = {
     init: function () {
         var div = document.createElement("div");
-        div.className = "box";
+        div.classList.add("box");
         div.textContent = "REEV0036";
         document.getElementById("boxes").appendChild("div");
         
