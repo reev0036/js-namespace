@@ -1,8 +1,10 @@
 var REEV0036 = {
     init: function () {
+        /*
         var div = document.createElement("div");
-        div.classList.add("box");
+        div.className = "box";
         div.textContent = "REEV0036";
+        
         document.getElementById("boxes").appendChild("div");
         
         div.addEventListener("click", div_click);
@@ -21,6 +23,7 @@ var REEV0036 = {
         function div_mouseOut(event) {
             event.currentTarget.classList.toggle("highlight");
         }
-
+        */
+        console.log("Hey!");
     }
 };
